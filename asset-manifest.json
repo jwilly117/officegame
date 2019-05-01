@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/officegame/static/css/main.3b9fe88f.chunk.css",
+    "main.js": "/officegame/static/js/main.b8722ee0.chunk.js",
+    "main.js.map": "/officegame/static/js/main.b8722ee0.chunk.js.map",
+    "runtime~main.js": "/officegame/static/js/runtime~main.82c3dcde.js",
+    "runtime~main.js.map": "/officegame/static/js/runtime~main.82c3dcde.js.map",
+    "static/js/2.dc948b19.chunk.js": "/officegame/static/js/2.dc948b19.chunk.js",
+    "static/js/2.dc948b19.chunk.js.map": "/officegame/static/js/2.dc948b19.chunk.js.map",
+    "index.html": "/officegame/index.html",
+    "precache-manifest.56af2f06109011a7ca0bfbbddcdfc854.js": "/officegame/precache-manifest.56af2f06109011a7ca0bfbbddcdfc854.js",
+    "service-worker.js": "/officegame/service-worker.js",
+    "static/css/main.3b9fe88f.chunk.css.map": "/officegame/static/css/main.3b9fe88f.chunk.css.map"
+  }
+}
