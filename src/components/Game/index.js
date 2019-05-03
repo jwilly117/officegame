@@ -1,3 +1,5 @@
+
+//Import React, and all other components
 import React, { Component } from "react";
 import Nav from "../Nav";
 import Header from "../Header";
@@ -6,13 +8,14 @@ import ClickItem from "../ClickItem";
 import Footer from "../Footer";
 import data from "../../data.json";
 
+//Create a class game that we will compile all of the other components in, and 
 class Game extends Component {
   state = {
     data,
     score: 0,
     topScore: 0
   };
-
+//CompDidMount
   componentDidMount() {
     this.setState({ data: this.shuffleData(this.state.data) });
   }
@@ -70,11 +73,14 @@ class Game extends Component {
       : this.handleIncorrectGuess(newData);
   };
 
+
+  //Now we render the appropriate data once calculated
+
   render() {
     return (
       <div>
-        <Nav score={this.state.score} topScore={this.state.topScore} />
-        <Header />
+        <Nav  />
+        <Header score={this.state.score} topScore={this.state.topScore}/>
         <Container>
           {this.state.data.map(item => (
             <ClickItem
@@ -92,4 +98,5 @@ class Game extends Component {
   }
 }
 
+//Export Game to be imported into App.js
 export default Game;

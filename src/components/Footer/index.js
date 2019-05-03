@@ -1,15 +1,18 @@
+//Import both react and the stylesheet from the same folder
 import React from "react";
 import "./style.css";
 
+
+//Create a component of a simple footer, just to tie the page together. 
 function Footer() {
     return (
       <footer className="footer">
-        <div className="bottom">
           The Office (US) Random Click Game - JW 
-        </div>
       </footer>
     );
   }
   
+
+  //Export said component
   export default Footer;
   

@@ -1,11 +1,12 @@
+//Import both react and the stylesheet from the same folder
 import React from "react";
 import "./style.css";
 
-
+//Below, we create a
 
 function ClickItem(props) {
     return (
-        // Create a div that will contain the images and their clicked reactions.
+        // Create a Div that will contain the images and their clicked reactions.
 
         <div
         role="img"
@@ -14,7 +15,10 @@ function ClickItem(props) {
         style={{ backgroundImage: `url("${props.image}")` }}
         className={`picBox${props.shake ? "" : ""}`}
         >
+        
         </div>
     );
 }
+
+//Export the component function
 export default ClickItem;

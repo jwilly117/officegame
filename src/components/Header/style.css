@@ -1,17 +1,21 @@
 .header {
-    background-color: rgb(0, 19, 53);
-    /* background-image: url("/assets/images/geometry.svg"); */
+    background-color: rgb(2, 55, 146);
     background-repeat: repeat;
     color: white;
     min-height: 400px;
-    padding: 180px 20px; 
-    padding-bottom: 140px;
+    padding: 120px 20px; 
+    padding-bottom: 20px;
     text-align: center;
   }
   
   .header h1 {
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 4rem;
   }
   
+  img{
+    height: 300px;
+    width: 450px;
+    margin-bottom: 20px;
+  }

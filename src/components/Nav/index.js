@@ -1,5 +1,6 @@
+//Import Reach, The Nav Message, and the CSS Style sheet
+
 import React from "react";
-import NavMessage from "../NavMessage";
 import "./style.css";
 
 // Component for the Navbar
@@ -17,20 +18,8 @@ function Nav(props) {
          <li className="brand">
            <a href="/">The Office (US)</a> 
            
-          
-          
          </li>
-       
 
-         <NavMessage score={props.score} topScore={props.topScore} />
-        
-
-        <li>
-          Score: {props.score} | Top Score: {props.topScore}
-         </li>
-        
-      
-        
        </ul>
   
     
@@ -41,28 +30,7 @@ function Nav(props) {
     </form>
   
 </nav>
-    
-    // <nav className="navbar">
-    //   <ul>
-    //     <li className="brand">
-    //       <a href="/">Clicky Game</a> 
-    //       <a href="https://www.google.com">Home</a>
-          
-          
-    //     </li>
-       
-
-    //     <NavMessage score={props.score} topScore={props.topScore} />
-        
-
-    //     <li>
-    //       Score: {props.score} | Top Score: {props.topScore}
-    //     </li>
-        
-      
-        
-    //   </ul>
-    // </nav>
+   
   );
 }
 
