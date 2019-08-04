@@ -4,7 +4,7 @@
 ### Summary
 This small game is basically a "click a random picture" game I'm using to demonstrate building different components in React. 
 
-###How to play
+### How to play
 Click any employee to start playing, all of the employees are either win or loss, and get randomized after every click!
 Try to remember who you have clicked as well, dont click the same employee twice. 
 
