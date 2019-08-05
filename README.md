@@ -17,6 +17,7 @@ Try to remember who you have clicked as well, dont click the same employee twice
 ### Deployment & Screenshot
 [Link to Deployment](https://jwilly117.github.io/officegame/)
 
+![image](https://imgur.com/kMPsGlK.png)
 
 ### Future of this project
 In the future i'd like to refine the site to utilize more components and perhaps with different tabs for different small, component based games. All using React, as it is the main focus of this practice. 
