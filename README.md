@@ -8,13 +8,14 @@ This small game is basically a "click a random picture" game I'm using to demons
 Since this was near the first page I have done in react, the Goal is simply to demonstrate in code how different components could come together to present an entire page. 
 
 ### File Structure
+The file structure is relatively basic, demonstrating the creation of 8 components and then calling them into a single component, and then that component into the App.js file, which will render to the DOM. 
 
 ### How to play
 Click any employee to start playing, all of the employees are either win or loss, and get randomized after every click!
 Try to remember who you have clicked as well, dont click the same employee twice. 
 
 ### Deployment & Screenshot
-[Link to Deployment]( )
+[Link to Deployment](https://jwilly117.github.io/officegame/)
 
 
 ### Future of this project
